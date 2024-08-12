@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int r=sc.nextInt();
+        int d;
+        double area;
+        double pi=3.142;
+        System.out.println("radius is:"+r);
+        d=2*r;
+        System.out.println("diameter is:"+d);
+        area=pi*r*r;
+        System.out.println("area is:"+area);
+        
+    }
+}
